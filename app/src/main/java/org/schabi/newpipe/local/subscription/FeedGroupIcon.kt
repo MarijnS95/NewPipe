@@ -49,7 +49,7 @@ enum class FeedGroupIcon(
     WORK(29, R.attr.ic_work),
     HOT(30, R.attr.ic_kiosk_hot),
     CHANNEL(31, R.attr.ic_channel),
-    BOOKMARK(32, R.attr.ic_bookmark),
+    BOOKMARK(32, R.attr.ic_bookmarks),
     PETS(33, R.attr.ic_pets),
     WORLD(34, R.attr.ic_world),
     STAR(35, R.attr.ic_stars),

@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
                 .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_rss));
         drawerItems.getMenu()
                 .add(R.id.menu_tabs_group, ITEM_ID_BOOKMARKS, ORDER, R.string.tab_bookmarks)
-                .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_bookmark));
+                .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_bookmarks));
         drawerItems.getMenu()
                 .add(R.id.menu_tabs_group, ITEM_ID_DOWNLOADS, ORDER, R.string.downloads)
                 .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_file_download));
@@ -424,7 +424,7 @@ public class MainActivity extends AppCompatActivity {
                 .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_rss));
         drawerItems.getMenu()
                 .add(R.id.menu_tabs_group, ITEM_ID_BOOKMARKS, ORDER, R.string.tab_bookmarks)
-                .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_bookmark));
+                .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_bookmarks));
         drawerItems.getMenu()
                 .add(R.id.menu_tabs_group, ITEM_ID_DOWNLOADS, ORDER, R.string.downloads)
                 .setIcon(ThemeHelper.resolveResourceIdFromAttr(this, R.attr.ic_file_download));

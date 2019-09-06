@@ -263,7 +263,7 @@ public abstract class Tab {
         @DrawableRes
         @Override
         public int getTabIconRes(final Context context) {
-            return ThemeHelper.resolveResourceIdFromAttr(context, R.attr.ic_bookmark);
+            return ThemeHelper.resolveResourceIdFromAttr(context, R.attr.ic_bookmarks);
         }
 
         @Override
